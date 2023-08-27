@@ -59,7 +59,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("Anime", callback_data='dev')
                 ],[
                 InlineKeyboardButton('Netflix', url='https://t.me/Netflix_Dual'),
-                InlineKeyboardButton('Netflix Series', url='https://t.me/Netflix_Dual_Series')
+                InlineKeyboardButton('Netflix Series', url='https://t.me/Netflix_Series_Dual')
                 ],[
                 InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
