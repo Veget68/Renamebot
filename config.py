@@ -51,14 +51,14 @@ class Txt(object):
     START_TXT = """<b>Hᴀɪ {} 👋,
 ɪ ᴀᴍ ᴀ ꜱɪᴍᴩʟᴇ 2ɢʙ ꜰɪʟᴇ ʀᴇɴᴀᴍᴇ+ꜰɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇɴᴛᴏʀ ʙᴏᴛ
 ᴡɪᴛʜ ᴛʜᴜᴍʙɴᴀɪʟ & ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ ꜱᴜᴩᴩᴏʀᴛ🗿
-ᴛʜɪꜱ ʙᴏᴛ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ : @Mc_adzz</b>"""
+ᴛʜɪꜱ ʙᴏᴛ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ : @Itz_Zeno</b>"""
 
     ABOUT_TXT = """<b>╭━━❰ 𝗦𝗣𝗘𝗘𝗗 𝗥𝗘𝗡𝗔𝗠𝗘 𝗕𝗢𝗧 ❱━━━➣
 ┣⪼🤖 ᴍy ɴᴀᴍᴇ : {}
-┣⪼🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/mc_adzz>𝗠𝗖 𝗔𝗗𝗭𝗭</a> 
-┣⪼📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
-┣⪼✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
-┣⪼💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>     
+┣⪼🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/Anime_Wide>𝗔𝗻𝗶𝗺𝗲</a> 
+┣⪼📕 Lɪʙʀᴀʀy : <a href=https://t.me/Anime_and_Animation_Movies>𝗔𝗻𝗶𝗺𝗲 𝗠𝗼𝘃𝗶𝗲</a>
+┣⪼✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://t.me/Netflix_Series_Dual>𝗡𝗲𝘁𝗳𝗹𝗶𝘅 𝗦𝗲𝗿𝗶𝗲𝘀</a>
+┣⪼💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://t.me/Netflix_Dual>𝗡𝗲𝘁𝗳𝗹𝗶𝘅</a>     
 ╰━━━━━━━━━━━━━━━━━━━━━━━➣ """
 
     HELP_TXT = """
@@ -76,13 +76,14 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 ⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
 <b>•»</b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/moviecomplexadminbot>𝗔𝗗𝗠𝗜𝗡</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Naruto_x_Movies>𝗔𝗱𝗺𝗶𝗻</a>
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
-    DEV_TXT = """<b><u>𝗠𝗖 𝗔𝗗𝗭𝗭</b></u>
-» 𝗠𝗖 𝗔𝗗𝗭𝗭 : <a href=https://telegram.me/mc_adzz>𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a>
-» 𝗠𝗖 𝗚𝗥𝗢𝗨𝗣 : <a href=https://telegram.me/moviecomplexofficialgroup>𝗠𝗢𝗩𝗜𝗘 𝗖𝗢𝗠𝗣𝗟𝗘𝗫 𝗚𝗥𝗢𝗨𝗣</a>"""
+    DEV_TXT = """<b><u></b></u>
+» 𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 : <a href=https://telegram.me/Anime_Wide>𝗔𝗻𝗶𝗺𝗲 𝗪𝗶𝗱𝗲</a>
+» 𝗠𝗼𝘃𝗶𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 : <a href=https://telegram.me/Netflix_Dual>𝗡𝗲𝘁𝗳𝗹𝗶𝘅</a>
+» 𝗦𝗲𝗿𝗶𝗲𝘀 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 : <a href=https://telegram.me/Netflix_Series_Dual>𝗡𝗲𝘁𝗳𝗹𝗶𝘅 𝗦𝗲𝗿𝗶𝗲𝘀</a>"""
 
     PROGRESS_BAR = """<b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
