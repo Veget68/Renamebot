@@ -34,10 +34,10 @@ async def start(client, message):
     user = message.from_user
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-        InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+        InlineKeyboardButton("Anime", callback_data='dev')
         ],[
-        InlineKeyboardButton('📯 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/moviecomplexofficialgroup'),
-        InlineKeyboardButton('💁🏻‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/moviecomplexadminbot')
+        InlineKeyboardButton('Anime Channel', url='https://t.me/Anime_Wide'),
+        InlineKeyboardButton('Movie Channel', url='https://t.me/Netflix_Dual')
         ],[
         InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -56,10 +56,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                InlineKeyboardButton("👨‍💻 Dᴇᴠꜱ 👨‍💻", callback_data='dev')
+                InlineKeyboardButton("Anime", callback_data='dev')
                 ],[
-                InlineKeyboardButton('📯 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ', url='https://t.me/moviecomplexofficialgroup'),
-                InlineKeyboardButton('💁‍♂️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/moviecomplexadminbot')
+                InlineKeyboardButton('Netflix', url='https://t.me/Netflix_Dual'),
+                InlineKeyboardButton('Netflix Series', url='https://t.me/Netflix_Dual_Series')
                 ],[
                 InlineKeyboardButton('🎛️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('🛠️ Hᴇʟᴩ', callback_data='help')
@@ -71,9 +71,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🎬 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+                InlineKeyboardButton("ᴍᴏᴠɪᴇ Channel", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
                 ],[
-                InlineKeyboardButton("📢ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://telegram.me/mc_adzz')
+                InlineKeyboardButton("Anime Channel", url='https://telegram.me/Anime_Wide')
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -85,9 +85,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🎬 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ", url="https://telegram.me/moviecomplexofficialgroup")
+                InlineKeyboardButton("Netflix Request Group", url="https://t.me/Series_and_Movies_Request_Group")
                 ],[
-                InlineKeyboardButton("📢 ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://telegram.me/mc_adzz")
+                InlineKeyboardButton("Anime Request Group", url="https://t.me/Anime_Max_Request_Group")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
@@ -99,9 +99,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("🎬 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴩ", url="https://telegram.me/moviecomplexofficialgroup")
+                InlineKeyboardButton("Anime Movie", url="https://t.me/Anime_and_Animation_Movies")
                 ],[
-                InlineKeyboardButton("📢 ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://telegram.me/mc_adzz")
+                InlineKeyboardButton("Netflix", url="https://telegram.me/Netflix_Dual")
                 ],[
                 InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
